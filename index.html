@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crestmere Global | Executive Ground Logistics</title>
+  <meta name="description" content="Boutique executive ground logistics and luxury transport solutions across the United Kingdom for global executives, family offices, and private travelers." />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            charcoal: '#0B0B0C',
+            panel: '#121214',
+            soft: '#C7C2B8',
+            gold: '#BFA37A',
+            borderlux: 'rgba(255,255,255,0.08)'
+          },
+          fontFamily: {
+            serif: ['Playfair Display', 'serif'],
+            sans: ['Inter', 'sans-serif']
+          },
+          boxShadow: {
+            luxury: '0 10px 40px rgba(0,0,0,0.35)'
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+  background:
+    linear-gradient(rgba(0,0,0,0.32), rgba(0,0,0,0.40)),
+    url('assets/backgrounds/site-backgroundmain.jpg') center center / cover fixed;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+    .hero-bg {
+  background:
+    linear-gradient(rgba(0,0,0,0.10), rgba(0,0,0,0.20)),
+    url('assets/hero.jpg') center/cover;
+}
+
+    .glass {
+      background: rgba(255,255,255,0.03);
+      backdrop-filter: blur(12px);
+    }
+
+    .gold-line {
+      width: 80px;
+      height: 1px;
+      background: #BFA37A;
+    }
+  </style>
+</head>
+<body class="text-white font-sans">
+
+  <!-- =========================
+       HEADER
+  ========================== -->
+
+  <header class="fixed top-0 left-0 w-full z-50 border-b border-white/5 bg-black/60 backdrop-blur-xl">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="flex items-center justify-between py-5">
+
+        <!-- LOGO PLACEHOLDER -->
+        <div class="flex items-center gap-4">
+          <img src="assets/logo.png" alt="Crestmere Global Logo" class="h-14 md:h-40 w-auto">
+        </div>
+
+        <!-- CONTACT -->
+        <div class="flex items-center gap-4">
+          <a href="https://wa.me/message/K7YGOIGYFQOCJ1"
+             class="hidden sm:inline-flex border border-gold/40 hover:border-gold text-soft hover:text-white transition px-5 py-2 rounded-full text-sm tracking-wide">
+            Live Operations Desk
+          </a>
+
+          <div class="text-sm text-soft hidden md:block">
+            +44 7944 848137
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================
+       HERO
+  ========================== -->
+
+  <section class="hero-bg min-h-screen flex items-center relative">
+
+    <div class="absolute inset-0 bg-gradient-to-b from-black/10 via-black/30 to-charcoal"></div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 pt-32 pb-24">
+
+      <div class="max-w-4xl">
+
+        <div class="gold-line mb-8"></div>
+
+        <h1 class="font-serif text-5xl md:text-7xl leading-tight tracking-tight mb-8">
+          London’s Quiet Force Behind Executive Mobility.
+        </h1>
+
+        <p class="text-soft text-lg md:text-xl leading-relaxed max-w-3xl mb-10 font-light">
+          Discreet ground logistics and executive transport coordination for global decision-makers moving through the United Kingdom. Trusted by international family offices, corporate leadership teams, private clients, and those who expect precision without friction.
+        </p>
+
+        <div class="flex flex-wrap gap-4">
+          <a href="#contact"
+             class="bg-gold text-black px-8 py-4 rounded-full font-medium hover:opacity-90 transition shadow-luxury">
+            Speak to us
+          </a>
+
+          <a href="#fleet"
+             class="border border-white/10 hover:border-gold/40 text-white px-8 py-4 rounded-full transition">
+            Explore The Fleet
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================
+       FLEET SECTION
+  ========================== -->
+
+  <section id="fleet" class="py-28 bg-charcoal">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+
+      <div class="mb-20 text-center">
+        <div class="gold-line mx-auto mb-8"></div>
+
+        <h2 class="font-serif text-4xl md:text-5xl mb-6">
+          The Crestmere Fleet
+        </h2>
+
+        <p class="text-soft max-w-3xl mx-auto text-lg">
+          A carefully selected collection designed around discretion, comfort, and the expectations of globally mobile clientele.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+        <!-- RANGE ROVER -->
+        <div class="glass border border-white/5 rounded-[32px] overflow-hidden shadow-luxury hover:-translate-y-2 transition duration-500">
+
+          <!-- IMAGE PLACEHOLDER -->
+          <img src="assets/vehicles/rangerover.jpg"
+               alt="Range Rover Autobiography"
+               class="h-80 w-full object-cover">
+
+          <div class="p-8">
+            <h3 class="font-serif text-3xl mb-5 text-white">
+              Range Rover Autobiography
+            </h3>
+
+            <p class="text-soft leading-relaxed">
+              An unmistakable presence for clients who value stature, space, and discretion. Favoured for private itineraries, executive arrivals, and family office travel.
+            </p>
+          </div>
+        </div>
+
+        <!-- S CLASS -->
+        <div class="glass border border-white/5 rounded-[32px] overflow-hidden shadow-luxury hover:-translate-y-2 transition duration-500">
+
+          <!-- IMAGE PLACEHOLDER -->
+          <img src="assets/vehicles/sclass.jpg"
+               alt="Mercedes-Benz S-Class"
+               class="h-80 w-full object-cover">
+
+          <div class="p-8">
+            <h3 class="font-serif text-3xl mb-5 text-white">
+              Mercedes-Benz S-Class
+            </h3>
+
+            <p class="text-soft leading-relaxed">
+              Engineered for the executive who values calm, privacy, and uninterrupted movement between engagements. Quiet luxury in its purest form.
+            </p>
+          </div>
+        </div>
+
+        <!-- V CLASS -->
+        <div class="glass border border-white/5 rounded-[32px] overflow-hidden shadow-luxury hover:-translate-y-2 transition duration-500">
+
+          <!-- IMAGE PLACEHOLDER -->
+          <img src="assets/vehicles/vclass.jpg"
+               alt="Mercedes-Benz V-Class"
+               class="h-80 w-full object-cover">
+
+          <div class="p-8">
+            <h3 class="font-serif text-3xl mb-5 text-white">
+              Mercedes-Benz V-Class
+            </h3>
+
+            <p class="text-soft leading-relaxed">
+              Purpose-built for international delegations, corporate teams, and complex itineraries requiring space, privacy, and operational flexibility.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================
+       GLOBAL DESK
+  ========================== -->
+
+  <section class="py-28 bg-[#0E0E10] border-y border-white/5">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+
+      <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+        <div>
+          <div class="gold-line mb-8"></div>
+
+          <h2 class="font-serif text-4xl md:text-5xl mb-8 leading-tight">
+            Global Presence, Local Knowledge.
+          </h2>
+
+          <p class="text-soft text-lg leading-relaxed mb-6">
+            Crestmere Global functions as a dedicated executive logistics firm, providing international clients with trusted transport solutions across the United Kingdom through a highly selective affiliated network.
+          </p>
+
+          <p class="text-soft text-lg leading-relaxed mb-6">
+            With dedicated operations liaisons based in both the United States and the United Kingdom, we oversee your transition directly into the capital. Whether your itinerary begins in New York, Miami, Dubai, Riyadh, Singapore, or Hong Kong, our team ensures your movements within London are executed with absolute precision, discretion, and flawless continuity the moment you land.
+          </p>
+
+          <p class="text-soft text-lg leading-relaxed">
+            Every journey is coordinated through vetted affiliated licensed operators selected for professionalism, presentation, operational consistency, and executive-level service delivery.
+          </p>
+        </div>
+
+        <div class="relative">
+          <div class="absolute inset-0 bg-gold/10 blur-3xl rounded-full"></div>
+
+          <div class="relative glass border border-white/5 rounded-[36px] p-10 shadow-luxury">
+            <div class="space-y-8">
+
+              <div class="flex items-center justify-between border-b border-white/5 pb-5">
+                <span class="text-soft uppercase tracking-[0.2em] text-xs">Coverage</span>
+                <span class="text-white">United Kingdom</span>
+              </div>
+
+              <div class="flex items-center justify-between border-b border-white/5 pb-5">
+                <span class="text-soft uppercase tracking-[0.2em] text-xs">Availability</span>
+                <span class="text-white">24/7 Global Operations</span>
+              </div>
+
+              <div class="flex items-center justify-between border-b border-white/5 pb-5">
+                <span class="text-soft uppercase tracking-[0.2em] text-xs">Clientele</span>
+                <span class="text-white">Corporate • Family Offices • VIP</span>
+              </div>
+
+              <div class="flex items-center justify-between">
+                <span class="text-soft uppercase tracking-[0.2em] text-xs">Regions</span>
+                <span class="text-white">United States • GCC • Asia • Europe</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- =========================
+     PARTNER LOGOS
+========================== -->
+
+<section class="py-16 bg-black/75 backdrop-blur-sm overflow-hidden">
+  <div class="max-w-7xl mx-auto px-6 lg:px-8">
+
+    <div class="text-center mb-10">
+      <p class="text-soft uppercase tracking-[0.35em] text-xs">
+        Trusted By Multinational Clients & Affiliates
+      </p>
+    </div>
+
+    <div class="flex flex-wrap items-center justify-center gap-10 opacity-70">
+
+      <!-- LOGO 1 -->
+      <img src="assets/logos/company1.png"
+           alt="Company Logo"
+           class="h-20 md:h-28 w-auto object-contain hover:opacity-100 transition duration-300">
+
+      <!-- LOGO 2 -->
+      <img src="assets/logos/company2.png"
+           alt="Company Logo"
+           class="h-20 md:h-28 w-auto object-contain hover:opacity-100 transition duration-300">
+
+      <!-- LOGO 3 -->
+      <img src="assets/logos/company3.png"
+           alt="Company Logo"
+           class="h-20 md:h-28 w-auto object-contain hover:opacity-100 transition duration-300">
+
+      <!-- LOGO 4 -->
+      <img src="assets/logos/company4.png"
+           alt="Company Logo"
+           class="h-20 md:h-28 w-auto object-contain hover:opacity-100 transition duration-300">
+
+      <!-- LOGO 5 -->
+      <img src="assets/logos/company5.png"
+           alt="Company Logo"
+           class="h-20 md:h-28 w-auto object-contain hover:opacity-100 transition duration-300">
+           
+
+    </div>
+
+  </div>
+</section>
+
+  <!-- =========================
+       CONTACT
+  ========================== -->
+
+<section id="contact" class="py-28 bg-charcoal">
+  <div class="max-w-4xl mx-auto px-6 lg:px-8">
+
+    <div class="text-center mb-16">
+      <div class="gold-line mx-auto mb-8"></div>
+
+      <h2 class="font-serif text-4xl md:text-5xl mb-6">
+        Let Us Take Care of It
+      </h2>
+
+      <p class="text-soft text-lg max-w-2xl mx-auto">
+        Every itinerary begins with context. Share your requirements and our operations desk will coordinate a transport solution aligned to your schedule, preferences, and standards.
+      </p>
+    </div>
+
+    <div class="glass border border-white/5 rounded-[36px] p-8 md:p-12 shadow-luxury">
+
+      <form action="https://script.google.com/macros/s/AKfycbxOuocAiqikhuWS8jzKaEtAep2K3KgdbVTTJAru6GxDI_Lmy-_c8JqtRLo-nHG2pbE/exec"
+            method="POST"
+            target="hidden_iframe"
+            onsubmit="submitted=true;"
+            class="space-y-6">
+
+        <div class="grid md:grid-cols-2 gap-6">
+
+          <!-- NAME -->
+          <div>
+            <label class="block text-sm text-soft mb-3">
+              Name
+            </label>
+
+            <input name="name"
+                   type="text"
+                   required
+                   class="w-full bg-black/20 border border-white/10 rounded-2xl px-5 py-4 focus:outline-none focus:border-gold/40 transition"
+                   placeholder="Your Name">
+          </div>
+
+          <!-- EMAIL -->
+          <div>
+            <label class="block text-sm text-soft mb-3">
+              Email
+            </label>
+
+            <input name="email"
+                   type="email"
+                   required
+                   class="w-full bg-black/20 border border-white/10 rounded-2xl px-5 py-4 focus:outline-none focus:border-gold/40 transition"
+                   placeholder="Your Email">
+          </div>
+
+        </div>
+
+        <!-- COMPANY -->
+        <div>
+          <label class="block text-sm text-soft mb-3">
+            Company / Family Office
+          </label>
+
+          <input name="company"
+                 type="text"
+                 class="w-full bg-black/20 border border-white/10 rounded-2xl px-5 py-4 focus:outline-none focus:border-gold/40 transition"
+                 placeholder="Company or Family Office">
+        </div>
+
+        <!-- DATES -->
+        <div>
+          <label class="block text-sm text-soft mb-3">
+            Travel Dates
+          </label>
+
+          <input name="dates"
+                 type="text"
+                 class="w-full bg-black/20 border border-white/10 rounded-2xl px-5 py-4 focus:outline-none focus:border-gold/40 transition"
+                 placeholder="Arrival / Departure Dates">
+        </div>
+
+        <!-- MESSAGE -->
+        <div>
+          <label class="block text-sm text-soft mb-3">
+            Message
+          </label>
+
+          <textarea name="message"
+                    rows="5"
+                    required
+                    class="w-full bg-black/20 border border-white/10 rounded-2xl px-5 py-4 focus:outline-none focus:border-gold/40 transition resize-none"
+                    placeholder="Please share your requirements..."></textarea>
+        </div>
+
+        <!-- BUTTONS -->
+        <div class="flex flex-col md:flex-row gap-4 md:items-center md:justify-between pt-4">
+
+          <button type="submit"
+                  class="bg-gold text-black px-8 py-4 rounded-full font-medium hover:opacity-90 transition">
+            Submit Inquiry
+          </button>
+
+          <a href="https://wa.me/441234567890"
+             class="text-soft hover:text-white transition">
+            Or Live Operations Desk →
+          </a>
+
+        </div>
+
+      </form>
+
+      <!-- SUCCESS MESSAGE -->
+      <iframe name="hidden_iframe"
+              style="display:none;"
+              onload="if(submitted){alert('Thank you. Your enquiry has been received. A member of the Crestmere Global team will be in touch shortly.');}">
+      </iframe>
+
+      <script>
+        let submitted = false;
+      </script>
+
+    </div>
+
+  </div>
+</section>
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
+  <footer class="border-t border-white/5 py-10 bg-black">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center">
+
+      <p class="text-sm text-soft max-w-3xl mx-auto leading-relaxed">
+        Crestmere Global is as a boutique logistics firm providing executive ground transportation solutions through our affiliated licensed operators.
+      </p>
+
+      <p class="text-xs text-white/30 mt-6 tracking-[0.2em] uppercase">
+        Crestmere Global © 2026
+      </p>
+
+    </div>
+  </footer>
+
+</body>
+</html>
